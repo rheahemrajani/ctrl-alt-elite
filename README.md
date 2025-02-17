@@ -16,12 +16,28 @@ To run this project, you will need the following software and dependencies:
 - **Packages Required:**
   - [`pandas`](https://pandas.pydata.org/) - For data manipulation and analysis
   - [`VADER (nltk.sentiment)`](https://github.com/cjhutto/vaderSentiment) - For sentiment analysis
+  - matplotlib – For visualizations and plotting.
+  - seaborn – For enhanced statistical visualizations.
+  - vaderSentiment – For sentiment analysis using VADER.
+  - sklearn (scikit-learn) – For TF-IDF analysis and regression modeling.
+  - wordcloud – For generating word clouds.
+  - statsmodels – For LOWESS regression and statistical analysis.
+  - numpy – For numerical computations.
+    
 - **Platform:** Tested on macOS
 
 To install the necessary dependencies, run:
 
 ```bash
 pip install pandas vaderSentiment
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install vaderSentiment
+pip install scikit-learn
+pip install wordcloud
+pip install statsmodels
+pip install numpy
 
 ## Project Folder Structure
 project-folder/
